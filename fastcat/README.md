@@ -33,3 +33,9 @@ fastcat Goals -b
 ```bash
 fastcat Goals -n -e
 ```
+
+## TODO
+
+- [ ] Support **multiple files** (fastcat file1 file2)
+- [ ]  Add option to show **non-printing** characters (-v)
+- [ ]  Add option to tab **display as ^I** (-T)
