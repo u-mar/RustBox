@@ -28,8 +28,8 @@ cargo build --release
 fastcat Goals
 ```
 ```bash
-fastgrep Goals -b
+fastcat Goals -b
 ```
 ```bash
-fastgrep Goals -n -e
+fastcat Goals -n -e
 ```
