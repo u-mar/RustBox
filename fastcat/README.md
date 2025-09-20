@@ -21,7 +21,7 @@ Clone this repository and build using Cargo:
 git clone https://github.com/u-mar/Fastcat.git
 cd Fastcat
 cargo build --release
-
+```
 ## Usage
 
 ```bash
