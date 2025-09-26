@@ -8,7 +8,7 @@ pub fn cat(arg:Vec<String>,a:Arguments){
     }
     let file = a.file;
 
-    let texts = fs::read_to_string(&file).unwrap();
+    let texts = fs::read_to_string(&file).unwrap(); // bufreader to be implemented
     for (i,text) in texts.lines().filter(|text| if a.b {!text.trim().is_empty()} else {true}).enumerate(){
         if a.e {
             println!("{} {:}$",i+1,text);

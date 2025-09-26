@@ -1,5 +1,6 @@
 [workspace]
 members = [
     "fastcat",
-    "fastgrep",
+    "fastgrep", 
+    "fastwc",
 ]
